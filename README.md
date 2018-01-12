@@ -8,9 +8,8 @@ mkdir /etc/automysqlbackup
 cp ./automysqlbackup.conf /etc/automysqlbackup/  
 cp ./automysqlbackup /usr/local/bin/  
 chmod +x /usr/local/bin/automysqlbackup  
-cp /etc/automysqlbackup/automysqlbackup.conf /etc/automysqlbackup/myserver.conf  
 
 ### Edit
-vi /etc/automysqlbackup/myserver.conf  
+vi /etc/automysqlbackup/automysqlbackup.conf  
 
 #### [Read More About It](https://github.com/jodumont/automysqlbackup/wiki/README)
